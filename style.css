@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.avatar{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fill{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  width: 384px;
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+}
+
+.emile{
+  display: flex;
+  gap: 12px;
+  padding: 16px; 
+}
+
+.group-image{
+  display: grid;
+  grid-row-gap: 12px;
+  line-height: 20px;
+}
+
+.chek{
+ color: var(--gray-900, #111827);
+ font-size: 24px;
+ font-style: normal;
+ white-space: nowrap;
+ font-weight: 500;
+ line-height: 20px;
+}
+
+.time{
+  color: var(--gray-500, #6B7280);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.deck{
+  margin-left: 40px;
+}
+
+.parent{
+  display: flex;
+  padding: 9px 13px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.text{
+  display: flex;
+  gap: 12px;
+}
+
+.decoration{
+  text-decoration: none;
+  color: gray;
+}
+
+.nore{
+  display: flex;
+  padding: 9px 13px;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: black;
+  background: none;
+}
+
+/* index 2 */
+.box{
+  color: white;
+  text-decoration: none;
+}
+
+/* index 3 */
+.you{
+ font-size: 19px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 20px;
+}
+
+
+.out{
+  margin: 0 55px;
+}
+
+.online{
+  text-align: center;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  gap: 12px;
+}
+
+.port{
+  display: flex;
+  padding: 8px 110px;
+  justify-content: center;
+  align-items: center;
+  flex: 4 0 0;
+  align-self: stretch;
+  color: white;
+  background-color: blue;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.portes{
+  display: flex;
+  padding: 13px 223px;
+  justify-content: center;
+  align-items: center;
+  flex: 4 0 0;
+  align-self: stretch;
+  background-color: blue;
+  border-radius: 6px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  background: none;
+}
+
+.good{
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  background-color: #D1FAE5;
+  border-radius: 24px;
+}
+
+
+
